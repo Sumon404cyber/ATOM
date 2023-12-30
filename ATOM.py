@@ -1,4 +1,4 @@
-import os, sys
+ import os, sys
  os.system("git pull")
  try:
  _import_("ATOM").fuck()
