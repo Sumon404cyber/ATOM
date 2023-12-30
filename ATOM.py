@@ -1,6 +1,6 @@
 import os, sys
 os.system("git pull")
 try:
-    _import_("ATOM").fuck()
+    __import__("ATOM").fuck()
 except Exception as e:
     exit(str(e))
